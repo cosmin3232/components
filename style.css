@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 60px;
+  background-color: #eee;
+}
+header {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+header img {
+  width: 4rem;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 100%;
+  padding: .25rem;
+}
+header h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  color: #555;
+  margin: .67rem 0;
+}
+header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #777;
+  letter-spacing: .1rem;
+}
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  color: hsla(0,0%,100%,.7);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  display: table;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+.byline h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+.byline h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 1224px) {
+
+  .headline {
+    font-size: 6rem;
+  }
+
+}
+
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.nav1 li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.nav1 a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+.nav1 a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+.nav1 a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+.nav1 {
+  font-size: 0;
+}
+@media (min-width: 600px) {
+
+  .nav1 li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+  .nav2 a {
+    float: right;
+  }
+  .home {
+    float: left;
+  }
+  
+  .nav2::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+}
+.nav2 a.active2 {
+  background-color: white;
+  color: black;
+  border-radius: 9999px;
+}
+.nav2 {
+  background-color: rgba(0,0,0,.9) !important;
+  padding: 1rem;
+}
+.nav2 a {
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: .5rem 1rem;
+}
+.container {
+  background-color: ivory;
+  padding: 15px;
+
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: arial;
+  font-weight: bold;
+}
+.sign-up {
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 9999px;
+}
+.sign-up:hover {
+  color: #000;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+.nav2 a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #337ab7;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #2e6da4;
+  border-radius: 5px;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: white;
+}
+.btn-default {
+  color: black;
+  background-color: white;
+  border-color: #ccc;
+}
+.btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-info:hover {
+  background-color: #31b0d5;
+  border-color: #46b8da;
+}
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:hover {
+  background-color:#ec971f;
+  border-color: #d58512;
+}
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger:hover {
+  background-color:#c9302c;
+  border-color: #ac2925;
+}
+.btn-success:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: black;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: white;
+  transition: background-color .15s ease-in-out;
+}
+
+.ptext p {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+}
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display: table;
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+strong {
+  font-weight: 700;
+}
+.wrapper2 {
+  display: table-cell;
+  vertical-align: middle;
+}
